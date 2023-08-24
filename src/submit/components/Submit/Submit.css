@@ -1,0 +1,14 @@
+.submit {
+	width: 100%;
+	max-width: min(375px, calc(100% - 2rem)) !important;
+	padding: 1rem;
+	border-radius: 1rem;
+	background: radial-gradient(circle, var(--dark-blue) 0%, var(--very-dark-blue) 100%);
+	background-position: top;
+}
+
+.review-score {
+	background-color: var(--dark-blue);
+	color: var(--orange);
+	border-radius: 1rem;
+}
